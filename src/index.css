@@ -27,3 +27,7 @@
     )!important;
 
 }
+
+.right-aligned-image {
+    float: right;
+}
