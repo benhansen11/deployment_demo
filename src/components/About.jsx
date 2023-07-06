@@ -19,7 +19,7 @@ const About = () => {
                         always been very involved with technology, I found my passion for programming
                         during online classes due to covid. Although my life got busy at times due to 
                         me being a student athlete and coding wasn't always my main focus, I still 
-                        have a desire to imrpove my skills and add onto my knowledge every day. 
+                        have a desire to improve my skills and add onto my knowledge every day. 
 
                     </p>
                 </div>
