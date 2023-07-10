@@ -1,8 +1,7 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import { Link } from 'react-scroll';
-import Profile_Pic from '../assets/profile_pic.png';
-
+//import Profile_Pic from '../assets/profile_pic.png';
 
 const Home = () => {
   return (
