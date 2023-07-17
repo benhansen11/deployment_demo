@@ -1,5 +1,6 @@
 import React from 'react';
-import Skiing from '../assets/skiing.jpg';
+import Netflix from '../assets/netflix.jpg';
+import ChatApp from '../assets/chat_app.jpg';
 
 const Projects = () => {
   return (
@@ -11,12 +12,14 @@ const Projects = () => {
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <div style={{ backgroundImage: `url(${Skiing})` }} className='shadow-lg shadow-[#040c16] group containter rounded-md flex justify-center items-center mx-auto content-div'>
+
+          <div style={{ backgroundImage: `url(${ChatApp})` }} 
+          className='shadow-lg shadow-[#040c16] group containter rounded-md flex justify-center items-center mx-auto content-div'>
             
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-3xl font-bold text-white tracking-wider'>
-                React Chat 
+                React Chat App
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
@@ -25,6 +28,28 @@ const Projects = () => {
                   </button>
                 </a>
                 <a href='https://github.com/benhansen11/react_chat_app/tree/main'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div style={{ backgroundImage: `url(${Netflix})` }} 
+          className='shadow-lg shadow-[#040c16] group containter rounded-md flex justify-center items-center mx-auto content-div'>
+            
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-3xl font-bold text-white tracking-wider'>
+                Netflix React App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://ben-hansen-netflix-react-app.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/benhansen11/Netflix_Dupe'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
