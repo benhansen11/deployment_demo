@@ -16,7 +16,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-3xl font-bold text-white tracking-wider'>
-                React Chat <App></App>
+                React Chat 
               </span>
               <div className='pt-8 text-center'>
                 <a href='/'>
