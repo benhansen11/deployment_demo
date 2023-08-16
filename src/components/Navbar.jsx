@@ -4,40 +4,42 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../assets/c_of_i_logo.png";
 import { Link } from "react-scroll";
-import Resume from '../assets/Ben_Hansen_Resume_2023.pdf';
+import Resume from "../assets/Ben_Hansen_Resume_2023.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#794d85] text-gray-300">
-      <div>
-        <img src={logo} alt="logo image" style={{ width: "100px" }} />
+    <div className="header flex justify-between items-center px-4 bg-[#794d85] text-gray-300">
+      <div className="hover-effect">
+        <a href="https://www.collegeofidaho.edu/">
+          <img src={logo} alt="logo image" style={{ width: "100px" }} />
+        </a>
       </div>
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover-effect">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover-effect">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="hover-effect">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover-effect">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className="hover-effect">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>

@@ -2,6 +2,8 @@ import React from "react";
 import Netflix from "../assets/netflix.jpg";
 import ChatApp from "../assets/chat_app.jpg";
 import Admin from "../assets/admin.png";
+import { Zoom } from "react-awesome-reveal";
+
 
 const Projects = () => {
   return (
@@ -16,7 +18,7 @@ const Projects = () => {
           </p>
           <p className="py-2"> Check out some of my recent projects </p>
         </div>
-
+        <Zoom>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
             style={{ backgroundImage: `url(${Admin})` }}
@@ -88,6 +90,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        </Zoom>
       </div>
     </div>
   );
